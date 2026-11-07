@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- EarnWithProof sitemap skeleton.
+     BEFORE LAUNCH: replace https://tanvirahmed-bd.github.io/earnwithproof with the live GitHub Pages URL
+     in every <loc> below (and in robots.txt). Add one <url> block per article as articles are published. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://tanvirahmed-bd.github.io/earnwithproof/index.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://tanvirahmed-bd.github.io/earnwithproof/make-money-online.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tanvirahmed-bd.github.io/earnwithproof/ai-tools.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tanvirahmed-bd.github.io/earnwithproof/freelancing.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tanvirahmed-bd.github.io/earnwithproof/ecommerce.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tanvirahmed-bd.github.io/earnwithproof/kdp-publishing.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tanvirahmed-bd.github.io/earnwithproof/seo-blogging.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tanvirahmed-bd.github.io/earnwithproof/finance-basics.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tanvirahmed-bd.github.io/earnwithproof/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://tanvirahmed-bd.github.io/earnwithproof/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://tanvirahmed-bd.github.io/earnwithproof/privacy.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://tanvirahmed-bd.github.io/earnwithproof/terms.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- ARTICLES: add one block per article, e.g.
+  <url>
+    <loc>https://tanvirahmed-bd.github.io/earnwithproof/first-fiverr-order-timeline.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  -->
+</urlset>

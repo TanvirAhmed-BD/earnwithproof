@@ -1,0 +1,6 @@
+# EarnWithProof robots.txt
+# BEFORE LAUNCH: replace the placeholder domain in the Sitemap line with the live GitHub Pages URL.
+User-agent: *
+Allow: /
+
+Sitemap: https://tanvirahmed-bd.github.io/earnwithproof/sitemap.xml
