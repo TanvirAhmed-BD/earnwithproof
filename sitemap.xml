@@ -63,11 +63,20 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-  <!-- ARTICLES: add one block per article, e.g.
+  <!-- ARTICLES -->
   <url>
-    <loc>https://tanvirahmed-bd.github.io/earnwithproof/first-fiverr-order-timeline.html</loc>
+    <loc>https://tanvirahmed-bd.github.io/earnwithproof/withdraw-fiverr-earnings-bangladesh.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  -->
+  <url>
+    <loc>https://tanvirahmed-bd.github.io/earnwithproof/how-long-first-fiverr-order.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tanvirahmed-bd.github.io/earnwithproof/sell-digital-products-without-paypal-stripe-polar.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
