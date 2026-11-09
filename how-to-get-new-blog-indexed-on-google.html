@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How Do I Get a New Blog Indexed on Google? My Search Console Checklist — EarnWithProof</title>
+<meta name="description" content="How to get a new blog indexed on Google: my Search Console checklist — verification, sitemap, request indexing, and the 'Couldn't fetch' fix.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="index.html">EarnWithProof</a>
+    <nav class="main-nav" aria-label="Main">
+      <a href="make-money-online.html">Make Money Online</a>
+      <a href="ai-tools.html">AI Tools</a>
+      <a href="freelancing.html">Freelancing</a>
+      <a href="ecommerce.html">E-Commerce</a>
+      <a href="kdp-publishing.html">KDP</a>
+      <a href="seo-blogging.html">SEO &amp; Blogging</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <div class="wrap">
+    <div class="article">
+
+      <p class="breadcrumb"><a href="index.html">Home</a> &rsaquo; <a href="seo-blogging.html">SEO &amp; Blogging</a> &rsaquo; Indexing Checklist</p>
+
+      <h1>How Do I Get a New Blog Indexed on Google? My Search Console Checklist</h1>
+      <p class="lede">If you are asking how to get a new blog indexed on Google, here is the reassuring part first: indexing is a procedure, not a lottery. I have now run the same routine on several of my own sites — a custom website, a store, a lead page, and this blog — and the steps below are that routine, in order, with the real quirks I hit included: a sitemap Google reported as &ldquo;Couldn&rsquo;t fetch&rdquo; even though the file was live and valid, and a daily request limit that stopped me mid-launch and made me finish the next morning. EarnWithProof itself was verified in Search Console on its launch day, 7 November, and its homepage and first articles were accepted for indexing the same evening. Here is exactly how. Published November 2026 &middot; by Tanvir Ahmed.</p>
+
+      <div class="takeaways">
+        <h2>Key takeaways</h2>
+        <ul>
+          <li>Indexed is not ranked. Indexing only puts your page in Google&rsquo;s library; ranking is a separate, slower contest. But nothing ranks that is not indexed, so this checklist is step zero for every new blog.</li>
+          <li>The routine that works: verify ownership in Search Console, confirm your sitemap file loads, submit it, then request indexing for your homepage and most important pages — in that order.</li>
+          <li>Two quirks are normal, not fatal: a sitemap status of &ldquo;Couldn&rsquo;t fetch&rdquo; on a file you have verified is live (it resolved on its own on my sites), and a daily cap on indexing requests (I hit it on my fourth URL on launch evening — the rest simply waited for the next day).</li>
+        </ul>
+      </div>
+
+      <h2>Step 1: Add Your Blog to Search Console and Verify Ownership</h2>
+      <p>Google Search Console is free, and it is the only dashboard that tells you the truth about your site&rsquo;s presence in search. Adding a property means proving the site is yours, and Google offers several proofs. Which one you use depends on your platform. For this site — hosted on GitHub Pages — I used the HTML file method: Search Console gives you a small file with a unique name, you upload it to your site&rsquo;s root, click Verify, and ownership is confirmed because only the site&rsquo;s owner could put it there. For two of my other properties I used the HTML tag method instead: a one-line meta tag pasted into the homepage&rsquo;s head section. On Blogger, verification can ride on the Google account that owns the blog. All roads work; pick the one your platform makes easiest, and do not delete the file or tag afterwards — verification is rechecked. The mistake to avoid is skipping this step entirely and relying on a blog&rsquo;s built-in view counter, which counts your own visits and tells you nothing about Google.</p>
+
+      <h2>Step 2: Check Your Sitemap File Yourself Before Submitting It</h2>
+      <p>A sitemap is a simple file listing your pages so Google does not have to guess. Most platforms generate one: Blogger serves yours at yourblog.blogspot.com/sitemap.xml, and static sites like this one carry a sitemap.xml in the root. Before submitting anything, open the address in your own browser. You should see orderly XML listing real URLs from your site. If the address returns an error, fix that first — submitting a broken sitemap teaches you nothing and helps no one. On EarnWithProof the sitemap is maintained by hand as articles publish: every new post gets a line in the file the same day it appears on the homepage and its category page, so the three never disagree. That small discipline matters more than any submission trick.</p>
+
+      <h2>Step 3: Submit the Sitemap — and Do Not Panic at &ldquo;Couldn&rsquo;t Fetch&rdquo;</h2>
+      <p>In Search Console&rsquo;s Sitemaps section, enter the sitemap address and submit. Ideally the status soon reads &ldquo;Success&rdquo; with a count of discovered URLs. On my sites it did not: the status came back <strong>&ldquo;Couldn&rsquo;t fetch&rdquo;</strong> — while the file itself loaded perfectly in a browser and validated as correct XML. I have hit this on more than one property now, and the pattern is consistent: it is a Google-side timing quirk, not a defect in your file. The correct response is the boring one: verify the file loads (Step 2), leave the submission in place, and recheck in a few days rather than deleting and resubmitting in a loop. Resubmitting repeatedly does not speed anything up; it just restarts your anxiety. A sitemap, remember, is a hint system — it helps Google discover pages, but pages also get discovered through links, which is why the next steps matter as much as this one.</p>
+
+      <h2>Step 4: Request Indexing for the Pages That Matter Most</h2>
+      <p>Sitemap submitted, now ask directly. Search Console&rsquo;s URL Inspection tool takes any address on your site, shows its current status, and offers a &ldquo;Request Indexing&rdquo; button that puts the page in the priority crawl queue. On launch evening I ran this for EarnWithProof&rsquo;s homepage and its first two articles, and each request was accepted on the spot. Then came the lesson nobody warns beginners about: <strong>there is a daily quota</strong>. My fourth request — the third article — hit the limit, and the tool simply would not take more that day. The fix is not a workaround; it is a calendar. Homepage and your best pages first, the rest tomorrow. Within days of launch, prioritise in this order: homepage, category pages, then articles in the order you care about them. Requesting indexing is an invitation, not a command — Google still decides when to crawl — but on a new site it converts &ldquo;whenever Google stumbles across us&rdquo; into &ldquo;this week&rdquo;, and that difference is the whole ballgame in month one.</p>
+
+      <h2>Step 5: Link Every New Page From a Page Google Already Knows</h2>
+      <p>Requests and sitemaps are paperwork; links are roads. Google&rsquo;s crawler travels by following links, so a new article that is linked from your homepage and its category page will be found even if every request fails — and a page linked from nowhere can sit unvisited for weeks however often you submit it. My publishing routine hard-codes this: no article goes live until it appears in the homepage&rsquo;s Latest list and its category page&rsquo;s list, and every article carries two or three internal links to related articles, which link back. It is also why the small network from my <a href="how-to-get-free-backlinks-new-blog.html">free backlinks guide</a> matters — links arriving from my other properties give the crawler extra doors into a new site. Internal linking is the least glamorous step on this checklist and, day to day, the one that does the most work.</p>
+
+      <h2>Step 6: Verify the Result, Then Wait Properly</h2>
+      <p>A few days after submitting, run URL Inspection on your homepage again. The verdicts you want to learn to read: <strong>&ldquo;URL is on Google&rdquo;</strong> — indexed, done, move on to ranking work. <strong>&ldquo;Crawled — currently not indexed&rdquo;</strong> — Google visited and chose not to store the page yet; common for very new sites, usually resolves as the site publishes more and earns links. <strong>&ldquo;Discovered — currently not indexed&rdquo;</strong> — Google knows the address and has not crawled it; more internal links and time are the remedy. My own main website shows the patience this takes even after success: its homepage is confirmed on Google, but its recorded last-crawl date is days older than the newest version of the page, and my requests for a fresh crawl have failed more than once for reasons on Google&rsquo;s side, not mine. Indexed is a state you reach and then maintain — not a finish line you cross once. If a page <em>is</em> indexed but still invisible in results, that is a different problem with a different checklist: <a href="why-is-my-blog-post-not-ranking-google.html">the 9 ranking fixes I ran on my own posts</a>.</p>
+
+      <h2>Bottom Line</h2>
+      <p>Getting a new blog indexed is an afternoon of procedure followed by a few days of waiting: verify the property, check the sitemap loads, submit it without panicking at &ldquo;Couldn&rsquo;t fetch&rdquo;, request indexing for your most important pages within the daily quota, and link everything from everywhere sensible. Do those five things and a new blog typically moves from invisible to indexed within days — my launch-day experience on this site, and the pattern across my other properties, says the machinery works when you work it in order. What indexing does not give you is traffic; that arrives on the slower schedule laid out in <a href="how-long-new-blog-get-traffic.html">How Long Does It Take for a New Blog to Get Traffic?</a> — which is why the honest move is to finish this checklist early and spend the waiting months publishing.</p>
+
+      <div class="author-box">
+        <div class="avatar" aria-hidden="true">TA</div>
+        <div>
+          <h3>Written by Tanvir Ahmed</h3>
+          <p>Freelancer and self-published author from Bangladesh, building online income with zero upfront capital — Fiverr services, Amazon KDP books and digital products. Every guide on EarnWithProof is written from that first-hand work, with the numbers shown.</p>
+        </div>
+      </div>
+
+      <h2>Related articles</h2>
+      <div class="article-list">
+        <div class="article-item">
+          <h3><a href="how-to-get-free-backlinks-new-blog.html">How Do I Get Free Backlinks for a New Blogger Blog? (No Paid Tools, No Buying Links)</a></h3>
+          <p>The backlinks I actually built for free: my own interlinked sites, profiles and question-site answers — and why bulk bought links are the one shortcut I refuse.</p>
+        </div>
+        <div class="article-item">
+          <h3><a href="why-is-my-blog-post-not-ranking-google.html">Why Is My Blogger Post Not Ranking on Google? 9 Fixes I Tried on My Own Blog</a></h3>
+          <p>Indexed but invisible? The nine checks I run on my own underperforming posts, in order — from &ldquo;is it even published?&rdquo; to keyword difficulty and internal links.</p>
+        </div>
+        <div class="article-item">
+          <h3><a href="how-long-new-blog-get-traffic.html">How Long Does It Take for a New Blog to Get Traffic? My First Months, With Real Numbers</a></h3>
+          <p>Indexing takes days; traffic takes months. My real first-week numbers and the honest expectation curve for months 1–6 of a new blog.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <a class="logo" href="index.html">EarnWithProof</a>
+      <nav aria-label="Footer">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+    <p class="footer-note">Disclaimer: Content on EarnWithProof is educational and based on the author&rsquo;s own experience. It is not financial advice. Earnings from any online method vary and are never guaranteed. Always do your own research before spending money or making financial decisions.</p>
+    <p class="copyright">&copy; 2026 EarnWithProof. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
